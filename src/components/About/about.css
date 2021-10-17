@@ -1,0 +1,7 @@
+.about {
+  min-height: 90vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

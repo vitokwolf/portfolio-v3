@@ -13,9 +13,9 @@ export default function Footer() {
       <AppBar position="static" className="footer">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <GitHubIcon sx={{ padding: '0 20px' }} />
-            <LinkedInIcon sx={{ padding: '0 20px' }} />
-            <AlternateEmailIcon sx={{ padding: '0 20px' }} />
+            <GitHubIcon sx={{ padding: '0 15px' }} />
+            <LinkedInIcon sx={{ padding: '0 15px' }} />
+            <AlternateEmailIcon sx={{ padding: '0 15px' }} />
           </Typography>
         </Toolbar>
       </AppBar>
