@@ -1,0 +1,23 @@
+#about-me-container {
+  margin-bottom: 10%;
+  margin-left: 500px;
+  padding-left: 0%;
+  word-spacing: 0.1rem;
+}
+
+.about-me-desc {
+  font-weight: 400;
+}
+
+#me-pic {
+  width: 20%;
+  border-radius: 100%;
+  margin-right: 700px;
+}
+
+@media only screen and (min-width: 769px) {
+  #about-me-container {
+    margin-top: 20%;
+    width: 75%;
+  }
+}
