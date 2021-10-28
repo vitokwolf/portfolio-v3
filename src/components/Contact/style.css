@@ -1,0 +1,15 @@
+.contact-li {
+  font-size: 0.8rem;
+  padding-left: 10px;
+  font-weight: 400;
+  color: var(--light-gray) !important;
+  text-transform: uppercase;
+}
+
+.contact-icon {
+  color: var(--pale-gray) !important;
+}
+
+#contact-title {
+  color: var(--white) !important;
+}
