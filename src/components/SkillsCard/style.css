@@ -1,0 +1,35 @@
+.skills-title, .portfolio-title {
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.skills-icon {
+    color: var(--accent);
+}
+
+.slide-left {
+  animation: slideInLeft;
+  animation-duration: 1s;
+}
+
+.slide-right {
+  animation: slideInRight;
+  animation-duration: 1s;
+}
+
+.slide-up {
+  animation: slideInUp;
+  animation-duration: 1s;
+}
+
+@media only screen and (min-width: 960px) {
+    .design-card-footer {
+        position: absolute;
+        bottom: 0px;
+        width: 80%;
+    }
+
+    .design-card {
+        position: relative;
+    }
+}
