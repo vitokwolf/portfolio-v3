@@ -1,0 +1,12 @@
+#pic-section {
+  background-image: url('../../assets/images/background/top-main.png');
+  background-size: 110%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#bottom-about {
+  position: absolute;
+  bottom: 0;
+  z-index: -10;
+}
