@@ -1,0 +1,114 @@
+.pic-container {
+    position: relative;
+    height: 100%;
+}
+
+.project-description {
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.uk-slideshow{
+    padding-right: 35px;
+}
+
+.project-built-with {
+    color: var(--dark-gray);
+    font-size: smaller;
+    font-weight: 100;
+    word-spacing: 20px;
+    background-color: rgba(245, 245, 245, 0.432);
+    border-top: rgb(230, 230, 230) 1px solid;
+    margin-bottom: 0;
+    padding: 12px;
+}
+
+.portfolio-card-body polyline {
+    fill: none;
+    color: rgb(170, 170, 170);
+}
+
+.portfolio-card-body {
+    padding: 20px 5px 20px 40px;
+}
+
+.project-title {
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.wrapper .icon {
+    position: relative;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper .tooltip {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    padding: 5px 8px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    z-index: 1;
+    top: -20px;
+    opacity: 1;
+    visibility: visible;
+    color: var(--light-gray);
+}
+
+
+
+@media only screen and (max-width: 374px) {
+    .portfolio-card-body {
+        padding: 15px;
+    }
+
+    .project-title {
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+} 
+
+@media only screen and (max-width: 420px) {
+    .project-description {
+        font-size: 10px;
+    }
+} 
+
+@media only screen and (min-width: 375px) {
+    .portfolio-btn {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 0px 18px 0px 18px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+
+    .portfolio-btn {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px 24px 0px 24px;
+        font-size: 14px;
+    }
+
+    .project-title {
+        margin-bottom: 15px;
+    }
+}
