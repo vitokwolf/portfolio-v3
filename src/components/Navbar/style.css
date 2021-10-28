@@ -1,0 +1,26 @@
+.nav-item {
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-item:hover,
+.menu-icon:hover {
+  color: var(--accent) !important;
+  text-shadow: 1px 1px 1px var(--accent);
+}
+
+.menu-icon {
+  color: var(--gray);
+  padding: 20px;
+}
+
+.mobile-nav-item {
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 300;
+  color: var(--light-gray) !important;
+  text-transform: uppercase;
+}
