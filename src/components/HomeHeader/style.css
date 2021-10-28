@@ -1,0 +1,64 @@
+#my-name {
+  font-size: 60px;
+  padding-top: 140px;
+}
+
+#title-container {
+  padding-top: 70px;
+  margin-left: 300px;
+}
+
+.subtitle {
+  margin: 10px;
+  color: var(--gray) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
+}
+
+/* ANIMATIONS */
+#my-name {
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+
+#my-sub {
+  animation: fadeInRight;
+  animation-duration: 2s;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 390px) {
+  #my-name {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .subtitle {
+    font-weight: 100;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  #title-container {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #title-container {
+    padding-top: 100px;
+    padding-left: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .subtitle {
+    font-size: x-large;
+  }
+}
