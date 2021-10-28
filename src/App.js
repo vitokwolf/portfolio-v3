@@ -1,15 +1,26 @@
+import React from 'react'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
+import AboutPage from './pages/About'
+import SkillsPage from './pages/Skills'
+import PortfolioPage from './pages/Portfolio'
+import ContactCanvas from './components/Contact'
 import Footer from './components/Footer'
-import About from './components/About'
+import ResumeModal from './components/ResumeModal'
+import MobileMenu from './components/Navbar/MobileMenu'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
+    <Router>
+      <Route exact path="/" component={AboutPage} />
+      <Route path="/about" component={AboutPage} />
+      <Route path="/projects" component={PortfolioPage} />
+      <Route path="/skills" component={SkillsPage} />
+      <MobileMenu />
+      <ContactCanvas />
+      <ResumeModal />
       <Footer />
-    </div>
+    </Router>
   )
 }
 

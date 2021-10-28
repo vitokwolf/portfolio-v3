@@ -1,0 +1,115 @@
+.uk-offcanvas-bar {
+  background-color: var(--dark-gray);
+}
+
+.uk-icon {
+  padding: 5px;
+}
+
+hr {
+  width: 15%;
+  margin: 40px auto 40px auto;
+  background-color: var(--accent);
+  height: 1px;
+  border: none;
+}
+
+a:hover {
+  color: var(--accent) !important;
+}
+
+@media only screen and (max-width: 374px) {
+  #my-name {
+    font-size: 34px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .portfolio-card-body {
+    padding: 15px;
+  }
+
+  .project-title {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .portfolio-btn {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 0px 18px 0px 18px;
+    font-size: 12px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  body,
+  html {
+    font-size: 1rem;
+  }
+
+  .portfolio-btn {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px 24px 0px 24px;
+    font-size: 14px;
+  }
+
+  .contact-li,
+  .nav-li {
+    font-size: 0.8rem;
+  }
+
+  .subtitle {
+    font-weight: 100;
+  }
+
+  .project-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  #title-container {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #about-me-container {
+    margin-top: 245px;
+    padding-top: 200px;
+    width: 65%;
+    padding-left: 35%;
+  }
+
+  #title-container {
+    padding-top: 100px;
+    padding-left: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .design-card-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+  }
+
+  .design-card {
+    position: relative;
+  }
+}
