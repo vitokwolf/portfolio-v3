@@ -1,45 +1,44 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './style.css';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './style.css'
 
 function MobileMenu() {
   return (
-    <div id='menu-canvas' uk-offcanvas='overlay: true'>
-      <div className='uk-offcanvas-bar'>
+    <div id="menu-canvas" uk-offcanvas="overlay: true">
+      <div className="uk-offcanvas-bar">
         <button
-          className='uk-offcanvas-close'
-          type='button'
-          uk-close='true'
+          className="uk-offcanvas-close"
+          type="button"
+          uk-close="true"
         ></button>
-        <ul className='uk-list'>
+        <ul className="uk-list">
           <li>
-            <Link to='/about' className='nav-item mobile-nav-item'>
+            <Link to="/about" className="nav-item mobile-nav-item">
               About
             </Link>
           </li>
           <li>
-            <Link
-              to='/projects'
-              className='nav-item mobile-nav-item'
-            >
+            <Link to="/projects" className="nav-item mobile-nav-item">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link
-              to='/skills'
-              className='nav-item mobile-nav-item'
-            >
+            <Link to="/skills" className="nav-item mobile-nav-item">
               Skills
             </Link>
           </li>
           <li>
-            <a className='nav-item mobile-nav-item'>Resume</a>
+            <a
+              uk-toggle="target: #resume-modal"
+              className="nav-item mobile-nav-item"
+            >
+              Resume
+            </a>
           </li>
           <li>
             <a
-              uk-toggle='target: #contact-canvas'
-              className='nav-item mobile-nav-item'
+              uk-toggle="target: #contact-canvas"
+              className="nav-item mobile-nav-item"
             >
               Contact
             </a>
@@ -47,7 +46,7 @@ function MobileMenu() {
         </ul>
       </div>
     </div>
-  );
+  )
 }
 
-export default MobileMenu;
+export default MobileMenu
