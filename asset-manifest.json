@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.83542d86.chunk.css",
-    "main.js": "/portfolio-v3/static/js/main.e981f4e0.chunk.js",
-    "main.js.map": "/portfolio-v3/static/js/main.e981f4e0.chunk.js.map",
+    "main.js": "/portfolio-v3/static/js/main.485239b9.chunk.js",
+    "main.js.map": "/portfolio-v3/static/js/main.485239b9.chunk.js.map",
     "runtime-main.js": "/portfolio-v3/static/js/runtime-main.08c7a5a8.js",
     "runtime-main.js.map": "/portfolio-v3/static/js/runtime-main.08c7a5a8.js.map",
     "static/js/2.e0169fa2.chunk.js": "/portfolio-v3/static/js/2.e0169fa2.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/portfolio-v3/index.html",
     "static/css/main.83542d86.chunk.css.map": "/portfolio-v3/static/css/main.83542d86.chunk.css.map",
     "static/js/2.e0169fa2.chunk.js.LICENSE.txt": "/portfolio-v3/static/js/2.e0169fa2.chunk.js.LICENSE.txt",
-    "static/media/Victor Lupascu CV_Resume.a325aa4f.pdf": "/portfolio-v3/static/media/Victor Lupascu CV_Resume.a325aa4f.pdf",
+    "static/media/Victor Lupascu CV_Resume.c0e916e9.pdf": "/portfolio-v3/static/media/Victor Lupascu CV_Resume.c0e916e9.pdf",
     "static/media/style.css": "/portfolio-v3/static/media/top-main.579a11f4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.08c7a5a8.js",
     "static/js/2.e0169fa2.chunk.js",
     "static/css/main.83542d86.chunk.css",
-    "static/js/main.e981f4e0.chunk.js"
+    "static/js/main.485239b9.chunk.js"
   ]
 }
