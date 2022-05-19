@@ -1,6 +1,6 @@
 import React from 'react'
 import { Document, Page, pdfjs } from 'react-pdf'
-import resume from '../../assets/Victor Lupascu CV_Resume.pdf'
+import resume from '../../assets/victor-lupascu-resume.pdf'
 import './style.css'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
@@ -14,7 +14,7 @@ function ResumeModal() {
             href={resume}
             className="pdf-save"
             uk-icon="icon: download; ratio: 1.3"
-            download="Victor Lupascu CV_Resume.pdf"
+            download="victor-lupascu-resume.pdf"
             target="_blank"
           ></a>
           <button
