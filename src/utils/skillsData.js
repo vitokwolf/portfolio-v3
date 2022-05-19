@@ -7,13 +7,14 @@ const clientSide = [
   'Native DOM Methods',
   'Bootstrap',
   'UIKit',
-  'MaterialUI',
+  'Material-UI',
   'Bulma',
 ]
 
 const serverSide = [
   'Node.js',
   'Express.js',
+  'Axios',
   'Handlebars',
   'MySQL ',
   'Sequelize',

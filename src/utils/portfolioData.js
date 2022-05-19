@@ -7,6 +7,17 @@ function ProjectCard(title, about, builtWith, imgURL, siteURL, repoURL) {
   this.repoURL = repoURL
 }
 
+const travelPoint = new ProjectCard(
+  'TravelPoint',
+  `  The purpose of this application is to provide the User with points of interests(restaurants, hotels, etc.) at the desired location.
+   For interactivity, the app provides a search box with autocomplete functionality, filter POI by type and ratings, links to homepage of POI and Travel Advisor website for reviews.
+   The app also adds current weather icons on the Google map for better planning of the day.`,
+  'React | Axios | Node.js | Material-UI | Google API | OpenWeather API',
+  'https://github.com/vitokwolf/travel-advisor-react/raw/main/assets/travelpoint.png',
+  'https://travelpoint.netlify.app/',
+  'https://github.com/vitokwolf/travel-advisor-react',
+)
+
 const budgetTrackerCard = new ProjectCard(
   'Budget Tracker',
   `The budget tracker is an application that allows users to track their income and expenditures though a simple and intuitive interface. Users will simply enter a transaction then will be presented with a graphical representation of their budget.
@@ -92,10 +103,11 @@ const techBlogCard = new ProjectCard(
 )
 
 let portfolioData = [
+  travelPoint,
   socialVisaCard,
   myRegistryCard,
-  budgetTrackerCard,
   bookSearchCard,
+  budgetTrackerCard,
   eCommerceBackendCard,
   techBlogCard,
   notepadCard,
